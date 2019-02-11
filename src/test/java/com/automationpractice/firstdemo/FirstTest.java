@@ -31,7 +31,7 @@ public class FirstTest {
 	public void firstTest() throws InterruptedException {
 
 		// Optional, if not specified, WebDriver will search your path for driver exe.
-		System.setProperty("webdriver.gecko.driver", "chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "chromedriver");
 		
 		// Create a new Chrome WebDriver (browser) object and maximize the browser window (optional)
 		driver = new FirefoxDriver();
