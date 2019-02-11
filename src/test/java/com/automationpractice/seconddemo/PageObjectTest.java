@@ -23,7 +23,7 @@ public class PageObjectTest {
 	public void testNumberofDressesAvailable() {
 
 		// Optional, if not specified, WebDriver will search your path for chromedriver.
-		System.setProperty("webdriver.gecko.driver", "chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "chromedriver");
 
 		// Create a new Chrome WebDriver (browser) object
 		driver = new FirefoxDriver();
