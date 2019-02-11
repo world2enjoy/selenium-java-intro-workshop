@@ -26,7 +26,7 @@ public class SetupTearDownTest {
 	public void setUpTest() throws InterruptedException {
 
 		// Optional, if not specified, WebDriver will search your path for chromedriver.
-		System.setProperty("webdriver.gecko.driver", "chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "chromedriver");
 
 		driver = new FirefoxDriver();
 		driver.get("http://automationpractice.com/index.php");
